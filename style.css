@@ -1,0 +1,12 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.griditem {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
+}
