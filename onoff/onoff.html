@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detect Online / Offline</title>
+    <style>
+        body {
+            margin: 20px;
+            max-width: 600px;
+            display: flex;
+            color: black;
+        }
+
+        span {
+            display: flex;
+            color: teal;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        div {
+            margin: 20px;
+            min-width: 600px;
+            display: flex;
+            color: teal;
+            font-size: large;
+            font-weight: bolder;
+            background-color: yellow;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        You are currently - <span id="status"></span> &nbsp;!
+    </div>
+    <script src="./detect.js"></script>
+</body>
+
+</html>
